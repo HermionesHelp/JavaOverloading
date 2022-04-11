@@ -13,5 +13,7 @@ public class Main {
         System.out.println(personTwo.getFullName());
         System.out.println(personTwo.getInitials());
 
+//        System.out.println(Person.sayHi(personOne));
+
     }
 }

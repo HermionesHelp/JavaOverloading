@@ -27,4 +27,8 @@ public class Person {
     public String getInitials() {
         return this.firstName.substring(0, 1) + "." + ((this.middleName != null) ? this.middleName.substring(0, 1) + "." : "") + this.lastName.substring(0, 1) + ".";
     }
+
+//    public static String sayHi (Person person){
+//        return "Hi " + person.getFullName();
+//    }
 }

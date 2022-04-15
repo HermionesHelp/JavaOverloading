@@ -13,6 +13,10 @@ public class Main {
         System.out.println(personTwo.getFullName());
         System.out.println(personTwo.getInitials());
 
+//        Person personThree = new Person("Katie");
+//        System.out.println(personThree.getFullName());
+
+//        System.out.println(Person.getSpecies());
 //        System.out.println(Person.sayHi(personOne));
 
     }

@@ -7,6 +7,10 @@ public class Person {
     private String lastName;
     private static String species = "Homo Sapien";
 
+    public Person (String firstName){
+        this.firstName = firstName;
+        this.lastName = "Smith";
+    }
     public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -18,10 +22,6 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public Person (String firstName){
-        this.firstName = firstName;
-        this.lastName = "Smith";
-    }
 
     public String getFullName() {
         if(this.middleName == null) {
@@ -46,7 +46,12 @@ public class Person {
         return species;
     }
 
-    //    public static String sayHi (Person person){
-//        return "Hi " + person.getFullName();
-//    }
+    public static String sayHi (){
+        return "Hi, fellow human.";
+    }
+
+    public static String sayHi (Person person){
+        return "Hi " + person.getFullName();
+    }
+
 }
